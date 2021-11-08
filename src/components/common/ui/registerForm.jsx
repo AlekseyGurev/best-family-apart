@@ -25,6 +25,7 @@ const RegisterForm = () => {
     console.log(data);
   };
   const validateShema = yup.object().shape({
+    licence: yup.string().matches(true, "Лицензия должна быть подтверждена"),
     password: yup
       .string()
       .required("Пароль обязателен для заполнения")
@@ -42,7 +43,6 @@ const RegisterForm = () => {
       .string()
       .required("Электронная почта обезательна для заполнения")
       .email("Почта введена некорректно"),
-    licence: yup.string().matches(true, "Лицензия должна быть подтверждена"),
   });
   useEffect(() => {
     validate();
