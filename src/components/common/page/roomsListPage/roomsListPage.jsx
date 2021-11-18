@@ -16,7 +16,12 @@ const RoomsListPage = () => {
       <div className="row row-cols-1 row-cols-md-4 g-4">
         {rooms ? (
           rooms.map((room) => (
-            <Rooms key={room._id} img={room.img} name={room.name} />
+            <Rooms
+              key={room._id}
+              id={room._id}
+              img={room.img}
+              name={room.name}
+            />
           ))
         ) : (
           <h2>Loading...</h2>
