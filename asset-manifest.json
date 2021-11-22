@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/best-family-apart/static/css/main.a617e044.chunk.css",
-    "main.js": "/best-family-apart/static/js/main.1d7bb707.chunk.js",
-    "main.js.map": "/best-family-apart/static/js/main.1d7bb707.chunk.js.map",
-    "runtime-main.js": "/best-family-apart/static/js/runtime-main.7e76d390.js",
-    "runtime-main.js.map": "/best-family-apart/static/js/runtime-main.7e76d390.js.map",
+    "main.js": "/best-family-apart/static/js/main.f4a864f3.chunk.js",
+    "main.js.map": "/best-family-apart/static/js/main.f4a864f3.chunk.js.map",
+    "runtime-main.js": "/best-family-apart/static/js/runtime-main.c0af8ffd.js",
+    "runtime-main.js.map": "/best-family-apart/static/js/runtime-main.c0af8ffd.js.map",
     "static/css/2.8c0e6b67.chunk.css": "/best-family-apart/static/css/2.8c0e6b67.chunk.css",
-    "static/js/2.f2349218.chunk.js": "/best-family-apart/static/js/2.f2349218.chunk.js",
-    "static/js/2.f2349218.chunk.js.map": "/best-family-apart/static/js/2.f2349218.chunk.js.map",
-    "static/js/3.df156b95.chunk.js": "/best-family-apart/static/js/3.df156b95.chunk.js",
-    "static/js/3.df156b95.chunk.js.map": "/best-family-apart/static/js/3.df156b95.chunk.js.map",
+    "static/js/2.91de93d0.chunk.js": "/best-family-apart/static/js/2.91de93d0.chunk.js",
+    "static/js/2.91de93d0.chunk.js.map": "/best-family-apart/static/js/2.91de93d0.chunk.js.map",
+    "static/js/3.b27826c2.chunk.js": "/best-family-apart/static/js/3.b27826c2.chunk.js",
+    "static/js/3.b27826c2.chunk.js.map": "/best-family-apart/static/js/3.b27826c2.chunk.js.map",
     "index.html": "/best-family-apart/index.html",
     "static/css/2.8c0e6b67.chunk.css.map": "/best-family-apart/static/css/2.8c0e6b67.chunk.css.map",
     "static/css/main.a617e044.chunk.css.map": "/best-family-apart/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.f2349218.chunk.js.LICENSE.txt": "/best-family-apart/static/js/2.f2349218.chunk.js.LICENSE.txt",
+    "static/js/2.91de93d0.chunk.js.LICENSE.txt": "/best-family-apart/static/js/2.91de93d0.chunk.js.LICENSE.txt",
     "static/media/Apart_1_IMG_9305.aaae4d4e.jpg": "/best-family-apart/static/media/Apart_1_IMG_9305.aaae4d4e.jpg",
     "static/media/Apart_2_IMG_9313.35a83d58.jpg": "/best-family-apart/static/media/Apart_2_IMG_9313.35a83d58.jpg",
     "static/media/Apart_3_IMG_9332.162805c4.jpg": "/best-family-apart/static/media/Apart_3_IMG_9332.162805c4.jpg",
@@ -21,10 +21,10 @@
     "static/media/Apart_4_IMG_9334.05b4493f.jpg": "/best-family-apart/static/media/Apart_4_IMG_9334.05b4493f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7e76d390.js",
+    "static/js/runtime-main.c0af8ffd.js",
     "static/css/2.8c0e6b67.chunk.css",
-    "static/js/2.f2349218.chunk.js",
+    "static/js/2.91de93d0.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.1d7bb707.chunk.js"
+    "static/js/main.f4a864f3.chunk.js"
   ]
 }
