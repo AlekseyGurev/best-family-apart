@@ -3,10 +3,12 @@ import PropTypes from "prop-types";
 
 const SearchUsers = ({ value, handleSearch }) => {
     return (
-        <input type="text"
+        <input
+            className="align-self-center ml-auto rounded border" 
+            type="text"
             value={value}
             onChange={handleSearch}
-            placeholder="Search..."
+            placeholder="Поиск..."
         />);
 };
 

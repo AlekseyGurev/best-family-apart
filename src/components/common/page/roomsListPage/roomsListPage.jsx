@@ -38,8 +38,8 @@ const RoomsListPage = () => {
     };
     return (
       <div className="container">
-        <h2 className="mb-4">Доступные номера</h2>
-        <div>
+        <div className="d-flex justify-content-between">
+          <h2 className="p-2">Доступные номера</h2>
           <SearchRooms value={searchRoom} handleSearch={handleSearch} />
         </div>
         <div className="row row-cols-1 row-cols-md-3 g-3 mb-2">
