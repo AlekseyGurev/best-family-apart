@@ -4,9 +4,9 @@ import Rooms from "../../ui/rooms";
 import Pagination from "../../pagination";
 import { paginate } from "../../../../utils/paginate";
 import { searchRoomLabel } from "../../../../utils/searchRoomLabel";
-import _ from "lodash";
 import SearchRooms from "../../searchRooms";
 import SortServicesList from "../../ui/sortServicesList/sortServicesList";
+import _ from "lodash";
 
 const RoomsListPage = () => {
   const pageSize = 3;
@@ -82,18 +82,26 @@ const RoomsListPage = () => {
         )
       );
     };
+    const handleSortPrice = ({ target }) => {
+      if (target.name === "small") {
+        setRooms(_.orderBy(rooms, ["price"], ["asc"]));
+      } else if (target.name === "big") {
+        setRooms(_.orderBy(rooms, ["price"], ["desc"]));
+      }
+    };
     return (
       <div className="container">
-        <div class="row">
-          <div class="card col-sm-2 p-2">
+        <div className="row justify-content-between">
+          <div className="card col-sm-2 p-2">
             {services && (
               <SortServicesList
                 itemSelect={handleServicesSelect}
+                onClickPrice={handleSortPrice}
                 services={services}
               />
             )}
           </div>
-          <div class="card col-sm-9 mx-2">
+          <div className="card col-sm-9 mx-2 p-4">
             <div className="d-flex justify-content-between">
               <h2 className="p-2">Доступные номера</h2>
               <SearchRooms value={searchRoom} handleSearch={handleSearch} />
@@ -112,6 +120,7 @@ const RoomsListPage = () => {
                       id={room._id}
                       img={room.img}
                       name={room.name}
+                      price={room.price}
                     />
                   ))}
                 </div>
