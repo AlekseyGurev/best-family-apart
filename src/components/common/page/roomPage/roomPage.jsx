@@ -4,6 +4,7 @@ import api from "../../../../API";
 import RoomServicesList from "../../ui/roomServices/roomServicesList";
 import PropTypes from "prop-types";
 import RoomEditForm from "../../ui/roomEditForm";
+import ImageSlider from "../../ui/imageSlaider";
 
 const RoomPage = ({ roomId }) => {
   const [room, setRooms] = useState();
@@ -44,12 +45,8 @@ const RoomPage = ({ roomId }) => {
                   </svg>
                 </button>
                 <div className="row g-0">
-                  <div className="col-md-4">
-                    <img
-                      src={room.img}
-                      className="img-fluid rounded-start  p-4"
-                      alt="..."
-                    />
+                  <div className="col-md-6 p-4">
+                    <ImageSlider img={room.img} />
                   </div>
                   <div className="col-md-6">
                     <div className="card-body">

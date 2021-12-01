@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import CheckBoxField from "../../form/checkBoxField";
+import PropTypes from "prop-types";
 
 const SortServicesList = ({ itemSelect, services, onClickPrice }) => {
   return (
@@ -32,6 +33,12 @@ const SortServicesList = ({ itemSelect, services, onClickPrice }) => {
       </div>
     </div>
   );
+};
+
+SortServicesList.propTypes = {
+  services: PropTypes.array,
+  itemSelect: PropTypes.func,
+  onClickPrice: PropTypes.func,
 };
 
 export default SortServicesList;

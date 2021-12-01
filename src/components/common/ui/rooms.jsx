@@ -7,7 +7,7 @@ const Rooms = ({ id, img, name, price }) => {
     <Link className="text-decoration-none" to={`/rooms/${id}`}>
       <div className="col">
         <div className="card">
-          <img src={img} className="card-img-top img-thumbnail" alt="..." />
+          <img src={img[0]} className="card-img-top img-thumbnail" alt="..." />
           <div className="card-body">
             <h6 className="card-title link-secondary">{name}</h6>
             <p className="card-text link-dark">{price} рублей</p>
